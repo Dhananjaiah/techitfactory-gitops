@@ -1,0 +1,6 @@
+# Dev environment values (updated automatically by CI)
+images:
+  frontend: "dockerhub_user/frontend:dev"
+  product:  "dockerhub_user/product:dev"
+  cart:     "dockerhub_user/cart:dev"
+  order:    "dockerhub_user/order:dev"

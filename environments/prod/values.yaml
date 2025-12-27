@@ -1,0 +1,6 @@
+# Prod environment values (updated only via Release/Tag gate)
+images:
+  frontend: "dockerhub_user/frontend:prod"
+  product:  "dockerhub_user/product:prod"
+  cart:     "dockerhub_user/cart:prod"
+  order:    "dockerhub_user/order:prod"
